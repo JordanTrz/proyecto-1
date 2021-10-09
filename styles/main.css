@@ -34,9 +34,6 @@ header ul {
   justify-content: right;
   align-content: center;
   padding-top: 30px;
-}
-
-header li{
   list-style-type: none;
 }
 
@@ -46,7 +43,7 @@ header a {
   margin: 0px 20px 0px 10px;
 }
 
-/* seccion home */
+/* section home */
 
 .section-home {
   padding: 0px 30px 0px 30px;
@@ -63,17 +60,17 @@ header a {
   -webkit-box-shadow: 10px 10px 35px 0px rgba(143,136,136,0.75);
   -moz-box-shadow: 10px 10px 35px 0px rgba(143,136,136,0.75);
 }
-/* seccion servicios */
+/* section servicios */
 
-.section-servicios {
+.section-services {
   padding: 0px 30px 0px 30px;
 }
 
-.section-servicios h2{
+.section-services h2{
   color: #D206B2;
 }
 
-.section-servicios img{
+.section-services img{
   margin-right: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 35px 0px rgba(143,136,136,0.75);
@@ -82,11 +79,11 @@ header a {
   margin-bottom: 20px;
 }
 
-.section-servicios ul {
+.section-services ul {
   font-weight: bold;
   margin-bottom: 50px;
 }
-.section-servicios li{
+.section-services li{
   margin: 20px 0px 20px 0px;
 }
 .servicio-li-1 {color: #FF0000;}
@@ -94,7 +91,7 @@ header a {
 .servicio-li-3 {color: #D79B00;}
 .servicio-li-4 {color: #03B2B2;}
 
-/* Seccion Portafolio */
+/* Section Portafolio */
 
 .section-portafolio {
   padding: 0px 30px 0px 30px;
@@ -126,13 +123,13 @@ header a {
 .portafolio-li-4 {color: #637300;}
 
 
-/* Sección Contacto */
+/* Sectin Contacto */
 
-.section-contacto {
+.section-contact {
   padding: 0px 30px 0px 30px;
 }
 
-.section-contacto h2{
+.section-contact h2{
   color: #D20606;
 }
 
@@ -148,7 +145,7 @@ header a {
   height: 100px;
 }
 
-.section-contacto-form button{
+.section-contact-form button{
   color: green;
   height: 50px;
   width: 100px;
