@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -14,10 +14,10 @@
   <!-- -------------------- Sección Header -------------------- -->
   <!-- -------------------- -------------- -------------------- -->
   <header>
-    <div class="header-all">
+    <div>
       <h2>LOGO</h2>
-      <div>
-        <nav class="header-menu">
+      <div class="header-nav">
+        <nav>
           <a href="">Home</a>
           <a href="">Servicios</a>
           <a href="">Portafolio</a>
@@ -30,7 +30,7 @@
   <!-- -------------------- -------------- -------------------- -->
   <main>
     <!-- -------------------- Sección Home -------------------- -->
-    <section>
+    <section class="section-home">
       <div>
         <h2>Home</h2>
         <p>
@@ -38,71 +38,81 @@
           sunt, harum tenetur nesciunt facilis libero hic dolor laborum quos quasi. Sit eos quisquam ipsam.
         </p>
       </div>
-      <div>
+      <div class="imagen home">
         <img src="./image/home_1.png" alt="imagen 1">
         <img src="./image/home_2.png" alt="imagen 1">
         <img src="./image/home_3.png" alt="imagen 3">
       </div>
     </section>
-    <!-- -------------------- Sección Servicios -------------------- -->
-    <section>
+
+    <!-- ----------------- Sección Servicios ----------------- -->
+    <section class="section-servicios">
       <div>
         <h2>Servicios</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis porro ut aut iste odit earum mollitia
-          dignissimos omnis quam esse, impedit doloribus maiores fugit eum. Sint cumque excepturi dolore in.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis porro ut aut iste odit earum mollitia
+          dignissimos omnis quam esse, impedit doloribus maiores fugit eum. Sint cumque excepturi dolore in.
+        </p>
       </div>
-      <div>
+      <div class="imagen servicios">
         <img src="./image/servicios_1.png" alt="Imagen 1">
         <img src="./image/servicios_2.png" alt="Imagen 2">
         <img src="./image/servicios_3.png" alt="Imagen 3">
       </div>
       <div>
         <ul>
-          <li>Servicio uno</li>
-          <li>Servicio dos</li>
-          <li>Servicio tres</li>
-          <li>Servicio cuatro</li>
+          <li class="servicio-li-1">Servicio uno</li>
+          <li class="servicio-li-2">Servicio dos</li>
+          <li class="servicio-li-3">Servicio tres</li>
+          <li class="servicio-li-4">Servicio cuatro</li>
         </ul>
       </div>
     </section>
-    <!-- -------------------- Sección Portafolio -------------------- -->
-    <section>
+
+    <!-- ----------------- Sección Portafolio ----------------- -->
+    <section class="section-portafolio">
       <div>
         <h2>Portafolio</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima sunt a impedit. Neque suscipit hic amet
-          quidem magnam doloribus. Cum tenetur odit dicta veniam nulla! Soluta tenetur laborum non!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima sunt a impedit. Neque suscipit hic amet
+          quidem magnam doloribus. Cum tenetur odit dicta veniam nulla! Soluta tenetur laborum non!
+        </p>
       </div>
-      <div>
+      <div class="imagen portafolio">
         <img src="./image/portafolio_1.png" alt="Imagen 1">
         <img src="./image/portafolio_2.png" alt="Imagen 2">
         <img src="./image/portafolio_3.png" alt="Imagen 3">
       </div>
       <div>
         <ul>
-          <li>Servicio uno</li>
-          <li>Servicio dos</li>
-          <li>Servicio tres</li>
-          <li>Servicio cuatro</li>
+          <li class="portafolio-li-1">Servicio uno</li>
+          <li class="portafolio-li-2">Servicio dos</li>
+          <li class="portafolio-li-3">Servicio tres</li>
+          <li class="portafolio-li-4">Servicio cuatro</li>
         </ul>
       </div>
     </section>
-    <!-- -------------------- Sección Contacto -------------------- -->
-    <section>
+
+    <!-- ------------------ Sección Contacto ------------------ -->
+    <section class="section-contacto">
       <div>
         <h2>Contacto</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae, dignissimos nesciunt sed, amet qui
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae, dignissimos nesciunt sed, amet qui
           nostrum debitis in laboriosam, deserunt soluta quas! Commodi neque accusamus perspiciatis animi ipsam
-          obcaecati quos!</p>
+          obcaecati quos!
+        </p>
       </div>
-      <div>
+      <div class="section-contacto-form">
         <form action="" method="post">
-          <input type="text" name="nombre" id="nombre" placeholder="Nombre y apellido">
-          <input type="text" name="detalle" id="detalle" placeholder="Ingrese detalles">
+          <input class="form-nombre" required type="text" name="nombre" id="nombre" placeholder="Nombre y apellido"><br>
+          <input class="form-detalle" required type="text" name="detalle" id="detalle" placeholder="Ingrese detalles"><br>
           <button>Enviar</button>
         </form>
       </div>
     </section>
   </main>
+
   <!-- -------------------- -------------- -------------------- -->
   <!-- -------------------- Sección Footer -------------------- -->
   <!-- -------------------- -------------- -------------------- -->
